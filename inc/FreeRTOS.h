@@ -41,10 +41,6 @@
  *   + Set any compiler options necessary for it to support C99, as technically
  *     stdint.h is only mandatory with C99 (FreeRTOS does not require C99 in any
  *     other way).
- *   + The FreeRTOS download includes a simple stdint.h definition that can be
- *     used in cases where none is provided by the compiler.  The files only
- *     contains the typedefs required to build FreeRTOS.  Read the instructions
- *     in FreeRTOS/source/stdint.readme for more information.
  */
 #include <stdint.h> /* READ COMMENT ABOVE. */
 
